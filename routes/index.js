@@ -28,7 +28,23 @@ router.get('/', function (req, res) {
       metaDescripcion: ' curriculum de kinesiologo profesional que atiende en santiago de chile atencion especial en todas las comunas de la region metropolitana',
       tiTuloh1: 'formulario de contacto '
     });
-  }); 
+  });
+  router.get('/contacto/contacto2', function (req, res) {
+    res.render('./contacto/contacto2', {
+      pageTitle: 'formulario de contacto kinesiologo a domicilio Santiago ',
+      images: 'images',
+      metaDescripcion: ' curriculum de kinesiologo profesional que atiende en santiago de chile atencion especial en todas las comunas de la region metropolitana',
+      tiTuloh1: 'formulario de contacto '
+    });
+  });
+  router.get('/contacto/contacto2/contacto3', function (req, res) {
+    res.render('./contacto/contacto3', {
+      pageTitle: 'formulario de contacto kinesiologo a domicilio Santiago ',
+      images: 'images',
+      metaDescripcion: ' curriculum de kinesiologo profesional que atiende en santiago de chile atencion especial en todas las comunas de la region metropolitana',
+      tiTuloh1: 'formulario de contacto '
+    });
+  });
   router.get('/politica-de-privacidad', function (req, res) {
     res.render('privacidad', {
       pageTitle: 'formulario de contacto kinesiologo a domicilio Santiago ',
