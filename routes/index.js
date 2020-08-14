@@ -6,27 +6,27 @@ const router = express.Router();
 
 router.get('/', function (req, res) {
     res.render('index', {
-      pageTitle: 'H1 de pruebas ',
+      pageTitle: ' Terapia de Acupuntura en Santiago ',
       images: 'images',
-      metaDescripcion: 'servicio de kinesiologia a domicilio para las comunas de : Las Condes, Providencia, La Florida, Macul, Peñalolen y Ñuñoa.',
-      tiTuloh1: 'titulo de pruebas'
+      metaDescripcion: 'servicio de acupuntura a domicilio para las comunas de : Las Condes, Providencia, La Florida, Macul, Peñalolen y Ñuñoa.',
+      tiTuloh1: 'Terapia de Acupuntura en Santiago'
     });
   });
   
   router.get('/about', function (req, res) {
     res.render('about', {
-      pageTitle: 'titulo acerca de la empresa',
+      pageTitle: 'nosotros acupunturistas',
       images: 'images',
-      metaDescripcion: ' curriculum de kinesiologo profesional que atiende en santiago de chile atencion especial en todas las comunas de la region metropolitana',
-      tiTuloh1: 'pagina que habla sobre la empresa'
+      metaDescripcion: 'nuestro enfoque es atender a las personas que ya no han logradoresultados en otro tipos de terapias',
+      tiTuloh1: 'terpautas de acupuntura'
     });
   }); 
 
   router.get('/contacto', function (req, res) {
     res.render('contacto', {
-      pageTitle: 'formulario de contacto kinesiologo a domicilio Santiago ',
+      pageTitle: 'formulario de contacto acupuntura a domicilio Santiago ',
       images: 'images',
-      metaDescripcion: ' curriculum de kinesiologo profesional que atiende en santiago de chile atencion especial en todas las comunas de la region metropolitana',
+      metaDescripcion: ' contacto de acupunturista profesional que atiende en santiago de chile atencion especial en todas las comunas de la region metropolitana',
       tiTuloh1: 'formulario de contacto '
     });
   });
