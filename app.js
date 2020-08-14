@@ -6,7 +6,6 @@ const compression = require('compression');
 const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
-const favicon = require('serve-favicon');
 
 
 
@@ -16,19 +15,18 @@ const app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'pug');
+app.set('view engine', 'ejs');
 
 app.use(logger('dev'));
 app.use(compression());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(favicon(__dirname + '/public/images/Favicon.webp'));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(function (req, res, next) {
-  if (req.hostname === 'kinesiologoadomicilio.com') {
-    res.redirect(301, 'http://www.kinesiologoadomicilio.com' + req.path);
+  if (req.hostname === ' terapiaacupunturasantiago.cl') {
+    res.redirect(301, 'http://www.terapiaacupunturasantiago.cl' + req.path);
     return ;
   }
   next();
