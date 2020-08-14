@@ -13,12 +13,12 @@ router.get('/', function (req, res) {
     });
   });
   
-  router.get('/about', function (req, res) {
-    res.render('about', {
-      pageTitle: 'nosotros acupunturistas',
+  router.get('/blog', function (req, res) {
+    res.render('blog', {
+      pageTitle: ' acupunturista blog',
       images: 'images',
       metaDescripcion: 'nuestro enfoque es atender a las personas que ya no han logradoresultados en otro tipos de terapias',
-      tiTuloh1: 'terpautas de acupuntura'
+      tiTuloh1: 'terapias  de acupuntura en diversas patologias'
     });
   }); 
 
