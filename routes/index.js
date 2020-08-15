@@ -6,7 +6,7 @@ const router = express.Router();
 
 router.get('/', function (req, res) {
     res.render('index', {
-      pageTitle: ' Terapia de Acupuntura en Santiago ',
+      pageTitle: ' Terapia de Acupuntura en Maipu ',
       images: 'images',
       metaDescripcion: 'servicio de acupuntura a domicilio para las comunas de : Las Condes, Providencia, La Florida, Macul, Peñalolen y Ñuñoa.',
       tiTuloh1: 'Terapia de Acupuntura en Santiago'
