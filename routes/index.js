@@ -6,10 +6,12 @@ const router = express.Router();
 
 router.get('/', function (req, res) {
     res.render('index', {
-      pageTitle: ' Terapia de Acupuntura en Maipu ',
+      pageTitle: ' Terapia de Acupuntura en Santiago ',
       images: 'images',
-      metaDescripcion: 'servicio de acupuntura a domicilio para las comunas de : Las Condes, Providencia, La Florida, Macul, Peñalolen y Ñuñoa.',
-      tiTuloh1: 'Terapia de Acupuntura en Santiago'
+      metaDescripcion: 'servicio terapia de acupuntura en Santiago domicilio para las comunas de : Las Condes, Providencia, La Florida, Macul, Peñalolen y Ñuñoa.',
+      tiTuloh1: 'Terapia de Acupuntura en Santiago',
+      index: 'index',
+      canonical: 'http://www.terapiaacupunturasantiago.cl'
     });
   });
   
@@ -18,18 +20,20 @@ router.get('/', function (req, res) {
       pageTitle: ' acupunturista blog',
       images: 'images',
       metaDescripcion: 'nuestro enfoque es atender a las personas que ya no han logradoresultados en otro tipos de terapias',
-      tiTuloh1: 'terapias  de acupuntura en diversas patologias'
+      tiTuloh1: 'terapias  de acupuntura en diversas patologias',
+       index: 'index',
+      canonical: 'http://www.terapiaacupunturasantiago.cl/blog'
     });
   }); 
 
-  router.get('/contacto', function (req, res) {
-    res.render('contacto', {
-      pageTitle: 'formulario de contacto kinesiologo a domicilio Santiago ',
+  router.get('/blog/acupuntura-dolor', function (req, res) {
+    res.render('acupuntura-dolor', {
+      pageTitle: 'acupuntura dolor y tratammientos ',
       images: 'images',
-      metaDescripcion: ' ▷ formulario de contacto para servicio de kineisologia a domicilio',
-      tiTuloh1: 'formulario de contacto ',
+      metaDescripcion: ' acupuntura dolor y su tratamiento en medicina china en santiago de chile',
+      tiTuloh1: 'ACUPUNTURA dolor y tratamiento | medicina china ',
       index: 'index',
-      canonical: 'http://www.kinesishouse.cl/contacto'
+      canonical: 'http://www.terapiaacupunturasantiago.cl/blog/acupuntura-dolor'
     });
   }); 
   router.get('/politica-de-privacidad', function (req, res) {
