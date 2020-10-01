@@ -8,15 +8,10 @@ router.get('/', function (req, res) {
     res.render('index', {
       pageTitle: ' Terapia de Acupuntura en Santiago ',
       images: 'images',
-<<<<<<< HEAD
-      metaDescripcion: 'servicio de kinesiologia a domicilio para las comunas de : Las Condes, Providencia, La Florida, Macul, Peñalolen y Ñuñoa.',
-      tiTuloh1: 'terapia de acupuntura en santiago'
-=======
       metaDescripcion: 'servicio terapia de acupuntura en Santiago domicilio para las comunas de : Las Condes, Providencia, La Florida, Macul, Peñalolen y Ñuñoa.',
       tiTuloh1: 'Terapia de Acupuntura en Santiago',
       index: 'index',
       canonical: 'http://www.terapiaacupunturasantiago.cl'
->>>>>>> 27d5d47eb2bd9e0e4dcae456448fb9b916f72ce1
     });
   });
   
