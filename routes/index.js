@@ -25,6 +25,16 @@ router.get('/', function (req, res) {
       canonical: 'http://www.terapiaacupunturasantiago.cl/blog'
     });
   }); 
+  router.get('/acne', function (req, res) {
+    res.render('Acupuntura_Acne', {
+      pageTitle: ' acupuntuira y acne',
+      images: 'images',
+      metaDescripcion: 'nuestro enfoque es atender a las personas que ya no han logradoresultados en otro tipos de terapias',
+      tiTuloh1: 'terapias  de acupuntura en acne',
+       index: 'index',
+      canonical: 'http://www.terapiaacupunturasantiago.cl/acne'
+    });
+  }); 
 
   router.get('/blog/acupuntura-dolor', function (req, res) {
     res.render('acupuntura-dolor', {
