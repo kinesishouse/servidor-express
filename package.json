@@ -1,6 +1,7 @@
 {
   "name": "first-server",
   "version": "1.0.0",
+  "private": true,
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -13,9 +14,16 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.4",
+    "debug": "^4.1.1",
     "ejs": "^2.7.1",
     "express": "^4.17.1",
-    "pug": "^2.0.4"
+    "http-errors": "^1.7.3",
+    "morgan": "^1.9.1",
+    "node-linux": "^0.1.12",
+    "pug": "^2.0.4",
+    "spdy": "^4.0.1"
   },
   "devDependencies": {
     "nodemon": "^1.19.4"

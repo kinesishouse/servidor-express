@@ -1,0 +1,33 @@
+<% include partial/head.ejs %>	
+
+<body>
+    <h1 class="header center orange-text"><%= tiTuloh1%></h1>
+    <% include partial/navbar.ejs %>
+    <div class="col m6 l6 s12">
+        <div class="row">
+            <div class m12>
+                <form id="drop-a-line" role="form">
+                    <div class="row">
+                        <div class="input-field col m12 s12">
+                            <input id="your-email" type="email">
+                            <label for="your-email">tu direccion email</label>
+                        </div>
+                    </div>
+
+                    <div class="row"></div>
+                    <div class="input-field col m12 s12">
+                        <textarea class="materialize-textarea" id="your-mensage"  rows="3"></textarea>
+                        <label for="your-mensaje">tu mensaje</label>
+                    </div>
+                    <div class="row">
+                        <div class="col col s12">
+                            <button id="send-mensage" class="fotter-send">enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+   
+    <% include partial/boton.ejs%>       
+<% include partial/footer.ejs %>	
