@@ -16,7 +16,7 @@ router.get('/', function (req, res) {
   });
   
   router.get('/blog', function (req, res) {
-    res.render('blog', {
+    res.render('Acupuntura_blog', {
       pageTitle: ' acupunturista blog',
       images: 'images',
       metaDescripcion: 'nuestro enfoque es atender a las personas que ya no han logradoresultados en otro tipos de terapias',
