@@ -8,7 +8,7 @@ router.get('/', function (req, res) {
       pageTitle: 'H1 de pruebas ',
       images: 'images',
       metaDescripcion: 'servicio de kinesiologia a domicilio para las comunas de : Las Condes, Providencia, La Florida, Macul, Peñalolen y Ñuñoa.',
-      tiTuloh1: 'titulo de pruebas'
+      tiTuloh1: 'terapia de acupuntura en santiago'
     });
   });
   
