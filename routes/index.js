@@ -35,7 +35,17 @@ router.get('/', function (req, res) {
       canonical: 'http://www.terapiaacupunturasantiago.cl/acne'
     });
   }); 
-
+}); 
+router.get('/acne', function (req, res) {
+  res.render('Acupuntura_Anorexia', {
+    pageTitle: ' Acupuntuira y Anorexia',
+    images: 'images',
+    metaDescripcion: 'Nuestro enfoque es atender a las personas que ya no han logradoresultados en otro tipos de terapias',
+    tiTuloh1: 'Terapias  de Acupuntura en Anorexia',
+     index: 'index',
+    canonical: 'http://www.terapiaacupunturasantiago.cl/anorexia'
+  });
+}); 
   router.get('/blog/acupuntura-dolor', function (req, res) {
     res.render('acupuntura-dolor', {
       pageTitle: 'Acupuntura Dolor y Tratammientos ',
