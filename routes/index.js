@@ -8,7 +8,7 @@ router.get('/', function (req, res) {
     res.render('index', {
       pageTitle: ' Terapia de Acupuntura en Santiago ',
       images: 'images',
-      metaDescripcion: 'servicio terapia de acupuntura en Santiago domicilio para las comunas de : Las Condes, Providencia, La Florida, Macul, Peñalolen y Ñuñoa.',
+      metaDescripcion: 'Servicio terapia de acupuntura en Santiago domicilio para las comunas de : Las Condes, Providencia, La Florida, Macul, Peñalolen y Ñuñoa.',
       tiTuloh1: 'Terapia de Acupuntura en Santiago',
       index: 'index',
       canonical: 'http://www.terapiaacupunturasantiago.cl'
@@ -17,9 +17,9 @@ router.get('/', function (req, res) {
   
   router.get('/blog', function (req, res) {
     res.render('Acupuntura_blog', {
-      pageTitle: ' acupunturista blog',
+      pageTitle: ' Acupunturista blog',
       images: 'images',
-      metaDescripcion: 'nuestro enfoque es atender a las personas que ya no han logradoresultados en otro tipos de terapias',
+      metaDescripcion: 'Nuestro enfoque es atender a las personas que ya no han logradoresultados en otro tipos de terapias',
       tiTuloh1: 'terapias  de acupuntura en diversas patologias',
        index: 'index',
       canonical: 'http://www.terapiaacupunturasantiago.cl/blog'
@@ -27,10 +27,10 @@ router.get('/', function (req, res) {
   }); 
   router.get('/acne', function (req, res) {
     res.render('Acupuntura_Acne', {
-      pageTitle: ' acupuntuira y acne',
+      pageTitle: ' Acupuntuira y Acne',
       images: 'images',
-      metaDescripcion: 'nuestro enfoque es atender a las personas que ya no han logradoresultados en otro tipos de terapias',
-      tiTuloh1: 'terapias  de acupuntura en acne',
+      metaDescripcion: 'Nuestro enfoque es atender a las personas que ya no han logradoresultados en otro tipos de terapias',
+      tiTuloh1: 'Terapias  de Acupuntura en Acne',
        index: 'index',
       canonical: 'http://www.terapiaacupunturasantiago.cl/acne'
     });
@@ -38,30 +38,30 @@ router.get('/', function (req, res) {
 
   router.get('/blog/acupuntura-dolor', function (req, res) {
     res.render('acupuntura-dolor', {
-      pageTitle: 'acupuntura dolor y tratammientos ',
+      pageTitle: 'Acupuntura Dolor y Tratammientos ',
       images: 'images',
-      metaDescripcion: ' acupuntura dolor y su tratamiento en medicina china en santiago de chile',
-      tiTuloh1: 'ACUPUNTURA dolor y tratamiento | medicina china ',
+      metaDescripcion: ' Acupuntura dolor y su tratamiento en medicina china en santiago de chile',
+      tiTuloh1: 'Acupuntura Dolor y Tratamiento | Medicina China ',
       index: 'index',
       canonical: 'http://www.terapiaacupunturasantiago.cl/blog/acupuntura-dolor'
     });
   }); 
   router.get('/politica-de-privacidad', function (req, res) {
     res.render('privacidad', {
-      pageTitle: 'politica de privacidad ',
+      pageTitle: 'Politica de privacidad ',
       images: 'images',
-      metaDescripcion: ' politicas de privacidad del sitio web',
-      tiTuloh1: 'politica de privacidad ',
+      metaDescripcion: ' Politicas de privacidad del sitio web',
+      tiTuloh1: 'Politica de privacidad ',
       index: 'noindex',
       canonical: 'http://www.kinesishouse.cl/politica-de-privacidad'
     });
   }); 
   router.get('/politica-de-cokies', function (req, res) {
     res.render('cokies', {
-      pageTitle: 'politica de cokkies ',
+      pageTitle: 'Politica de cokkies ',
       images: 'images',
-      metaDescripcion: ' politicas de cokies del sitio web',
-      tiTuloh1: 'politica de cookies ',
+      metaDescripcion: ' Politicas de cokies del sitio web',
+      tiTuloh1: 'Politica de cookies ',
       index: 'noindex',
       canonical: 'http://www.kinesishouse.cl/politica-de-cokies'
     });
