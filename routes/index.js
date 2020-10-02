@@ -36,7 +36,7 @@ router.get('/', function (req, res) {
     });
   }); 
 }); 
-router.get('/acne', function (req, res) {
+router.get('/Anorexia', function (req, res) {
   res.render('Acupuntura_Anorexia', {
     pageTitle: ' Acupuntuira y Anorexia',
     images: 'images',
