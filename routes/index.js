@@ -20,14 +20,14 @@ router.get('/', function (req, res) {
       pageTitle: ' Acupunturista blog',
       images: 'images',
       metaDescripcion: 'Nuestro enfoque es atender a las personas que ya no han logradoresultados en otro tipos de terapias',
-      tiTuloh1: 'terapias  de acupuntura en diversas patologias',
+      tiTuloh1: 'Terapias  de acupuntura en diversas patologias',
        index: 'index',
       canonical: 'http://www.terapiaacupunturasantiago.cl/blog'
     });
   }); 
   router.get('/acne', function (req, res) {
     res.render('Acupuntura_Acne', {
-      pageTitle: ' Acupuntuira y Acne',
+      pageTitle: ' Acupuntura y Acne',
       images: 'images',
       metaDescripcion: 'Nuestro enfoque es atender a las personas que ya no han logradoresultados en otro tipos de terapias',
       tiTuloh1: 'Terapias  de Acupuntura en Acne',
@@ -35,17 +35,20 @@ router.get('/', function (req, res) {
       canonical: 'http://www.terapiaacupunturasantiago.cl/acne'
     });
   }); 
-}); 
-router.get('/Anorexia', function (req, res) {
-  res.render('Acupuntura_Anorexia', {
-    pageTitle: ' Acupuntuira y Anorexia',
-    images: 'images',
-    metaDescripcion: 'Nuestro enfoque es atender a las personas que ya no han logradoresultados en otro tipos de terapias',
-    tiTuloh1: 'Terapias  de Acupuntura en Anorexia',
-     index: 'index',
-    canonical: 'http://www.terapiaacupunturasantiago.cl/anorexia'
-  });
-}); 
+
+
+  router.get('/Anorexia', function (req, res) {
+    res.render('Acupuntura_Anorexia', {
+     pageTitle: ' Acupuntuira y Anorexia',
+      images: 'images',
+      metaDescripcion: 'Nuestro enfoque es atender a las personas que ya no han logradoresultados en otro tipos de terapias',
+     tiTuloh1: 'Terapias  de Acupuntura en Anorexia',
+       index: 'index',
+     canonical: 'http://www.terapiaacupunturasantiago.cl/Anorexia'
+    });
+  }); 
+
+
   router.get('/blog/acupuntura-dolor', function (req, res) {
     res.render('acupuntura-dolor', {
       pageTitle: 'Acupuntura Dolor y Tratammientos ',
