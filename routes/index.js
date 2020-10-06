@@ -48,6 +48,19 @@ router.get('/', function (req, res) {
     });
   }); 
 
+  router.get('/Apnea', function (req, res) {
+    res.render('Acupuntura_Apnea', {
+      pageTitle: ' Acupuntura y Apnea',
+      images: 'images',
+      metaDescripcion: 'Nuestro enfoque es atender a las personas que ya no han logradoresultados en otro tipos de terapias',
+      tiTuloh1: 'Terapias  de Acupuntura en Apnea',
+       index: 'index',
+      canonical: 'http://www.terapiaacupunturasantiago.cl/Apnea'
+    });
+  }); 
+
+
+
 
   router.get('/blog/acupuntura-dolor', function (req, res) {
     res.render('acupuntura-dolor', {
